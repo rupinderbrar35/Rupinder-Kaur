@@ -1,0 +1,8 @@
+let Arr = []
+Arr.push(2)      //add an item to the end of an array
+console.log(Arr)
+Arr.unshift(1)  // add an item to the start of an array
+Arr.push
+Arr.shift()    //removes the first item in an array
+Arr.pop()      //removes the last item of an array
+console.log(Arr)
