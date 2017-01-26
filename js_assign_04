@@ -1,0 +1,6 @@
+const x = process.argv
+let mealcost = Number(x[2])
+let tippercent = Number(x[3])
+let tipamount = (tippercent/100)*mealcost
+let totalearning = tipamount+mealcost
+console.log(`your meal $${mealcost}+x ${tippercent}% tip=${totalearning}`)
