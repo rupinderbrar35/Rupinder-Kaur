@@ -1,0 +1,12 @@
+function array(x)
+{
+x = []
+let y= []
+x.push(1,2,3,`mango`)
+for(let i=0; i<=3; i++)
+{
+y=x.splice(0,1)
+console.log(`${i}:${y}`)
+}
+}
+array([])

@@ -1,0 +1,7 @@
+function insert(x,y)
+{
+x = []
+x.push(y)
+console.log(x)
+}
+insert([],4)
